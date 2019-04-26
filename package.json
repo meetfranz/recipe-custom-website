@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",
   "license": "MIT",
-  "repository": "https://github.com/meetfranz/franz-custom-website",
+  "repository": "https://github.com/meetfranz/recipe-custom-website",
   "config": {
     "hasNotificationSound": false,
     "hasIndirectMessages": false,
