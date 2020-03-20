@@ -1,7 +1,7 @@
 {
   "id": "franz-custom-website",
   "name": "Custom Website",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Add a custom website to Franz",
   "main": "index.js",
   "author": "Stefan Malzner <stefan@adlk.io>",
@@ -10,6 +10,7 @@
   "config": {
     "hasNotificationSound": false,
     "hasIndirectMessages": false,
-    "hasCustomUrl": true
+    "hasCustomUrl": true,
+    "autoHibernate": true
   }
 }

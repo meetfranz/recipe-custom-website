@@ -1,8 +1,4 @@
 module.exports = Franz => class CustomWebsite extends Franz {
-  // events = {
-  //   'page-favicon-updated': '_setFavicon',
-  // }
-
   async validateUrl(url) {
     try {
       const resp = await window.fetch(url, {
@@ -18,8 +14,4 @@ module.exports = Franz => class CustomWebsite extends Franz {
 
     return false;
   }
-
-  // _setFavicon(e) {
-  // TODOS: need better APIs for that
-  // }
 };
